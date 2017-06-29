@@ -26,11 +26,6 @@
     text-decoration: none ;
     color: azure ;
 }
-.header .logo h1 a.active,
-.header .logo h1 a.active:hover {
-    background: white ;
-    color: blue ;
-}
 
 /* 
  * This section is to edit the navigation bar.
@@ -68,7 +63,7 @@
 .navigation ul li a {
     display: block;
     margin: 20 0 0 20px;
-    padding: 3px 10px;
+    padding: 4px 10px;
     color: white;
     text-decoration: none;
     line-height: 1.3em;
@@ -90,7 +85,7 @@
 .box {
     margin-top: 50px ;
     width: 50px ;
-    height: 165px ;
+    height: 205px ;
     position: fixed ;
     margin-left: 100px auto ;
     border-radius: 25px ;
@@ -101,7 +96,7 @@
 .buttons {
     margin-top: 50px ;
     width: 50px ;
-    height: 165px ;
+    height: 205px ;
     position: fixed ;
     margin-left: -88px ;
     align-content: left ;
@@ -117,8 +112,8 @@ li {
 
 hr {
     border: 0 ;
-    height: 1px ;
-    background: darkcyan ;
+    height: 2px ;
+    color: darkslategray ;
     background-image: linear-gradient(to right, #ccc, darkcyan, #ccc) ;
 }
 
@@ -127,7 +122,7 @@ body {
     margin: 0 auto ;
     margin-top: 100px ;
     background-image: url(small_steps.png) ;
-    color: darkcyan ;
+    color: darkslategray;
     font-style: normal ;
     font-family: "Quicksand-Regular" ;
     font-size: 16px ;

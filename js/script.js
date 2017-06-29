@@ -6,10 +6,9 @@
 // It is completely optional and not required.
 // Note the reference that includes it in the index.html file.
 
+/*
+ * The jQuery code to begin a script. Will be used if needed.
+ */
 $(document).ready(function() {
-    
-    $(window).on("scroll touchmove", function () {
-        $('#header_nav').toggleClass('tiny', $(document).scrollTop() > 0);
-    });
     
 });
